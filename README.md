@@ -22,11 +22,11 @@ CGO_ENABLED=1 go install -ldflags="-s -w" github.com/rtfmkiesel/ffs@latest
 
 ```sh
 git clone https://github.com/rtfmkiesel/ffs
-cd fss
+cd ffs
 
 # assuming you have go/bin in your path
 CGO_ENABLED=1 go install -ldflags="-s -w" .
-fss
+ffs
 
 # else 
 CGO_ENABLED=1 go build -ldflags="-s -w" .
